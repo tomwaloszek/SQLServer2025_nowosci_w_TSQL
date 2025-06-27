@@ -1,9 +1,9 @@
 CREATE DATABASE DemoDB
 GO 
 
+
 USE DemoDB
 GO 
-
 
 SELECT IsOptimizedLockingOn = DATABASEPROPERTYEX(DB_NAME(), 'IsOptimizedLockingOn');
 

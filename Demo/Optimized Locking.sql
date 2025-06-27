@@ -42,7 +42,7 @@ BEGIN TRANSACTION;
 UPDATE BJJAthleteWins
 SET Wins = Wins + 1;  -- każdy zawodnik wygrywa 1 dodatkową walkę
 
-
+SELECT
     resource_type,
     resource_description,
     request_mode,
@@ -63,7 +63,7 @@ UPDATE BJJAthleteWins
 SET Wins = Wins + 1
 WHERE Wins >= 75 
 
-
+SELECT
     resource_type,
     resource_description,
     request_mode,
